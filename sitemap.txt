@@ -1,0 +1,15 @@
+fitworldassociation/
+│── index.html         # Home Page
+│── about.html         # About Us Page
+│── contact.html       # Contact Page
+│── terms.html         # Terms & Conditions Page
+│── styles.css         # Main CSS file for styling
+│── images/            # Folder for storing images
+│   ├── logo.png
+│   ├── event-banner.jpg
+│   ├── gallery1.jpg
+│   ├── gallery2.jpg
+│   ├── gallery3.jpg
+│   ├── strava-icon.png
+│   ├── instagram-icon.png
+│   ├── whatsapp-icon.png

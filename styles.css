@@ -1,0 +1,317 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full Page Layout */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Section */
+header {
+    background: #333;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Left Side Navigation */
+.left-nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Right Side Social Icons */
+.right-nav img {
+    width: 35px;
+    margin-left: 15px;
+}
+
+/* Logo & Tagline Section */
+.logo-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Increased Logo Size */
+.big-logo {
+    height: 200px; /* Increased from 100px */
+    width: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 34px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Highlighted Text */
+.highlight {
+    font-weight: bold;
+    color: #ff5733;
+}
+
+/* Hero Section */
+.hero {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Upcoming Event Section */
+.event-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.event-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Event Banner */
+.event-banner {
+    text-align: center;
+}
+
+.event-banner img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+
+/* Improve Readability on Mobile */
+@media (max-width: 768px) {
+    .hero {
+        padding: 15px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .big-logo {
+        height: 150px; /* Slightly reduced for mobile */
+    }
+
+    .tagline {
+        font-size: 28px;
+    }
+}
+
+
+/***********************************About Us***************************/
+
+.about {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.about h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    font-size: 28px;
+    color: #444;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.about ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about ul li {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+/* Add spacing to list items */
+.about ul li::before {
+    content: "•";
+    color: #ff5733;
+    font-size: 22px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+/* Motto Styling */
+.motto {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff5733;
+    margin: 20px 0;
+}
+
+/* Improve readability on mobile */
+@media (max-width: 768px) {
+    .about {
+        padding: 15px;
+    }
+
+    .about h1 {
+        font-size: 30px;
+    }
+
+    .about h2 {
+        font-size: 24px;
+    }
+
+    .about p, .about ul li {
+        font-size: 16px;
+    }
+}
+
+
+/***********************************Terms and Condition***************************/
+
+/* Terms & Conditions Page Styling */
+.terms {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.terms h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.terms h2 {
+    font-size: 26px;
+    color: #444;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.terms p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Add bullet point styling */
+.terms p::before {
+    content: "•";
+    color: #ff5733;
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+/* Highlight important points */
+.terms strong {
+    color: #ff5733;
+}
+
+/* Improve readability on mobile */
+@media (max-width: 768px) {
+    .terms {
+        padding: 15px;
+    }
+
+    .terms h1 {
+        font-size: 30px;
+    }
+
+    .terms h2 {
+        font-size: 24px;
+    }
+
+    .terms p {
+        font-size: 16px;
+    }
+}
+
+/***********************************Contact Us***************************/
+
+/* Contact Page Styling */
+.contact {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.contact h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Links Styling */
+.contact-info a {
+    color: #ff5733;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Improve readability on mobile */
+@media (max-width: 768px) {
+    .contact {
+        padding: 15px;
+    }
+
+    .contact h1 {
+        font-size: 30px;
+    }
+
+    .contact-info p {
+        font-size: 16px;
+    }
+}
